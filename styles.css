@@ -24,13 +24,14 @@ body {
   overflow: hidden;
   margin-left: 20px;
   margin-bottom: 20px;
-  background-color:  rgba(227, 235, 233, 0.8);
+  border: 5px solid blue;
 }
 
 .kepkeret img {
   width: 425px;
   position: relative;
   left: -5px;
+  
   border-bottom: 1px solid black;
 }
 
@@ -41,8 +42,15 @@ h1, h2 {
 p.kepfelirat {
   font-size: 1.1em;
   margin: 0px;
+  font-style: italic;
+  text-align: center;
+  line-height: 140%;
 }
 
 p {
   text-align: justify;
+}
+
+.kiemelt{
+  font-weight: bold;
 }
